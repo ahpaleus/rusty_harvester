@@ -56,6 +56,7 @@ Unfortunately, running binary with Intel PIN to obtain coverage is not the best 
 
 ## Bibliography
  - [https://www.youtube.com/user/gamozolabs](https://www.youtube.com/user/gamozolabs)
+ - [https://www.twitch.tv/videos/603019865?t=13h25m56s](https://www.twitch.tv/videos/603019865?t=13h25m56s)
  - [https://www.instytutpwn.pl/wp-content/uploads/2016/11/%C5%9Aledzenie-%C5%9Bcie%C5%BCki-wykonania-procesu-dla-security-researchera-i-programisty-ROBERT-%C5%9AWI%C4%98CKI.pdf](https://www.instytutpwn.pl/wp-content/uploads/2016/11/%C5%9Aledzenie-%C5%9Bcie%C5%BCki-wykonania-procesu-dla-security-researchera-i-programisty-ROBERT-%C5%9AWI%C4%98CKI.pdf)
  - Practical Binary Analysis, Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly
 by Dennis Andriesse
