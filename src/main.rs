@@ -48,8 +48,8 @@ fn fuzz(mut data_to_fuzz: Vec<u8>) -> Vec<u8> {
 		let random_byte = rng.rand() % data_to_fuzz.len();
 
 		// Bitflipping mutation
-		let wartosci = vec![1, 2, 4, 8, 16, 32, 64, 128];
-		data_to_fuzz[random_byte] = wartosci[rng.rand() % 8];
+		let values = vec![1, 2, 4, 8, 16, 32, 64, 128];
+		data_to_fuzz[random_byte] = values[rng.rand() % 8];
 	}
 
 	return data_to_fuzz
@@ -186,7 +186,6 @@ fn main() -> Result<(), Box<dyn Error>> {
 			match ecode.status.code() {
 				// Catch segmentation fault (signal 11)
 				Some(139) | Some(11) => {
-					
 					// Obtain crash's PC (first line from interceptsegv.out)
 					let intelpin_file = File::open("interceptsegv.out")?;
 					let mut intelpin_file_buf = BufReader::new(intelpin_file);
